@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.cmpt276.cmpt276project">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mindful"
+        android:roundIcon="@mipmap/mindful_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".ui.DisplayDetailsActivity"
+            android:label="Mindful - Inspection Details"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.DisplaySingleRestaurantActivity"
+            android:label="Mindful - Restaurant Details"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".ui.DisplayRestaurantActivity" />
+        <activity
+            android:name=".ui.DisplayRestaurantActivity"
+            android:label="Mindful - Restaurant Display"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="<YOUR_GOOGLE_MAP_API_KEY>" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

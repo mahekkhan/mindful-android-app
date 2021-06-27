@@ -1,0 +1,5 @@
+Name (User ID)					Role
+Karson Nguyen (karsonn)				Team Member
+Mahek Khan (mahekk)				Scrum Master
+Julian Claver Crisologo (jcrisolo)		Product Owner
+Saqib Hasib (shasib)				Repository Manager

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:strokeColor="@color/color_on_background"
+        app:strokeWidth="1dp"
+        tools:ignore="PrivateResource">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/singleRes_card_text_inspect_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/singleRes_placeholder_inspection_date"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/singleRes_card_text_noncrit_issue"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/singleRes_card_text_noncrit_issue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/singleRes_placeholder_noncrit_issue"
+                android:textColor="@color/colorTextPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/singleRes_card_image_hazard"
+                app:layout_constraintTop_toBottomOf="@+id/singleRes_card_text_crit_issue"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/singleRes_card_text_crit_issue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/singleRes_placeholder_crit_issue"
+                android:textColor="@color/colorTextPrimary"
+                app:layout_constraintStart_toEndOf="@+id/singleRes_card_image_hazard"
+                app:layout_constraintTop_toTopOf="@+id/singleRes_card_image_hazard" />
+
+            <ImageView
+                android:id="@+id/singleRes_card_image_hazard"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:contentDescription="@string/contentDes_hazard_level_indicator"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hazard_level_green" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+
+    <!--    android:orientation="vertical"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content">-->
+
+    <!--    <com.google.android.material.card.MaterialCardView-->
+    <!--        style="@style/Widget.MaterialComponents.CardView"-->
+    <!--        android:layout_width="392dp"-->
+    <!--        android:layout_height="81dp"-->
+    <!--        android:layout_marginLeft="@dimen/mtrl_card_spacing"-->
+    <!--        android:layout_marginTop="@dimen/mtrl_card_spacing"-->
+    <!--        android:layout_marginRight="@dimen/mtrl_card_spacing"-->
+    <!--        app:cardBackgroundColor="@color/colorAccent"-->
+    <!--        app:cardElevation="2dp"-->
+    <!--        app:cardUseCompatPadding="true"-->
+    <!--        app:strokeColor="@color/color_on_background"-->
+    <!--        app:strokeWidth="1dp"-->
+    <!--        tools:ignore="PrivateResource">-->
+
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/singleRes_card_text_inspect_date"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Inspection Date: April 21, 2019"-->
+    <!--                android:textSize="18sp"-->
+    <!--                android:textStyle="bold"-->
+    <!--                app:layout_constraintStart_toStartOf="@+id/singleRes_card_text_crit_issue"-->
+    <!--                app:layout_constraintTop_toTopOf="@+id/singleRes_card_image_hazard" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/singleRes_card_text_noncrit_issue"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginEnd="32dp"-->
+    <!--                android:text="@string/singleRes_placeholder_noncrit_issue"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/singleRes_card_text_crit_issue"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/singleRes_card_text_crit_issue"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="12dp"-->
+    <!--                android:text="@string/singleRes_placeholder_crit_issue"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/singleRes_card_image_hazard"-->
+    <!--                app:layout_constraintStart_toEndOf="@+id/singleRes_card_image_hazard" />-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/singleRes_card_image_hazard"-->
+    <!--                android:layout_width="40dp"-->
+    <!--                android:layout_height="40dp"-->
+    <!--                android:layout_marginStart="8dp"-->
+    <!--                android:layout_marginTop="4dp"-->
+    <!--                android:layout_marginBottom="4dp"-->
+    <!--                android:contentDescription="@string/contentDes_hazard_level_indicator"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:srcCompat="@drawable/hazard_level_green" />-->
+
+    <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--    </com.google.android.material.card.MaterialCardView>-->
+    <!--</LinearLayout>-->

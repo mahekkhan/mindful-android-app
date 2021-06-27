@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">CMPT276 Project</string>
+    <string name="title_activity_display_restaurant">DisplayRestaurantActivity</string>
+    <string name="title_activity_display_single_restaurant">DisplaySingleRestaurantActivity</string>
+    <string name="title_activity_display_details">DisplayDetailsActivity</string>
+    <string name="textview">TextView</string>
+    <string name="res_placeholder_restaurant_name">Gordon\'s Generic Restaurant of Foodstuff and stuff</string>
+    <string name="res_placeholder_total_issue">Issues: 420</string>
+    <string name="res_placeholder_inspection_date">Last inspection: April 20</string>
+    <string name="res_inspection_date">Last inspection: %1$s</string>
+    <string name="res_total_issue">Issues: %1$d</string>
+    <string name="contentDes_hazard_level_indicator">hazard level indicator</string>
+    <string name="contentDes_restaurant_icon">restaurant icon</string>
+    <string name="singleRes_restaurant_address">Restaurant Address</string>
+    <string name="singleRes_restaurant_gps_coordinates">Restaurant GPS Coordinates</string>
+    <string name="singleRes_inspection_date">Inspection Date: %1$s</string>
+    <string name="singleRes_noncrit_issue">Non-critical: %1$d</string>
+    <string name="singleRes_crit_issue">Critical: %1$d</string>
+    <string name="singleRes_placeholder_inspection_date">Last inspection: April 20</string>
+    <string name="singleRes_placeholder_noncrit_issue">Non-critical issues: 200</string>
+    <string name="singleRes_placeholder_crit_issue">Critical issues: 69</string>
+
+    <string name="fav_res_placeholder_restaurant_name">Gordon\'s Generic Restaurant of Foodstuff and stuff</string>
+    <string name="fav_placeholder_total_issue">Issues: 420</string>
+    <string name="fav_placeholder_inspection_date">Last inspection: April 20</string>
+
+    <string name="details_crit">Critical: </string>
+    <string name="details_noncrit">Non-critical: </string>
+
+    <string name="singleViolation_placeholder_InspecDate">April 30, 2018</string>
+    <string name="singleViolation_placeholder_Type">Type: %1$s</string>
+    <string name="singleViolation_placeholder_criticalIssuesFound">Critical: %1$d</string>
+    <string name="singleViolation_placeholder_nonCriticalIssues">Non-critical: %1$d</string>
+    <string name="singleViolation_text_placeholder_hazardLevel">Low</string>
+    <string name="singleInspection_description">Description: Rats!</string>
+
+    <string name="v101">Building not in accordance with Regulation</string>
+    <string name="v102">Unapproved food premises</string>
+    <string name="v103">No permit while operating</string>
+    <string name="v104">Permit not in conspicuous location</string>
+    <string name="v201">Food unfit for consumption</string>
+    <string name="v202">Food not processed to be safe</string>
+    <string name="v203">Food not cooled properly</string>
+    <string name="v204">Food not cooked/reheated properly</string>
+    <string name="v205">Cold hazardous food stored improperly</string>
+    <string name="v206">Hot hazardous food stored improperly</string>
+    <string name="v208">Food obtained from unapproved sources</string>
+    <string name="v209">Food vulnerable to contamination</string>
+    <string name="v210">Food not thawed properly</string>
+    <string name="v211">Frozen hazardous food store improperly</string>
+    <string name="v212">No acceptable food handling procedures</string>
+    <string name="v301">Equipment not properly sanitized</string>
+    <string name="v302">Equipment not properly washed</string>
+    <string name="v303">Equipment hot/cold water not adequate</string>
+    <string name="v304">Premises not free of pests</string>
+    <string name="v305">Conditions may allow breeding of pests</string>
+    <string name="v306">Food premises not regularly sanitized</string>
+    <string name="v307">Equipment of not suitable design/material</string>
+    <string name="v308">Equipment not in good condition</string>
+    <string name="v309">Improper storage/labeling of chemicals</string>
+    <string name="v310">Single use equipment used multiple times</string>
+    <string name="v311">Premises not maintained</string>
+    <string name="v312">Improper equipment stored on the premises </string>
+    <string name="v313">Live animal on premise</string>
+    <string name="v314">Unsatisfactory written sanitation procedures</string>
+    <string name="v315">Storage units lack accurate thermometers</string>
+    <string name="v401">Hand washing stations not available</string>
+    <string name="v402">Employees doesn\'t wash hands properly</string>
+    <string name="v403">Employees lack hygiene</string>
+    <string name="v404">Employees smoking</string>
+    <string name="v501">Operator no FOODSAFE Level 1</string>
+    <string name="v502">Unsupervised staff has no FOODSAFE Level 1</string>
+    <string name="restaurant_list">Restaurant List</string>
+    <string name="restaurant_map">Restaurant Map</string>
+    <string name="restaurant_favourites_list">Favourites List</string>
+    <string name="clear">Clear</string>
+    <string name="enter_your_search_queries_here">Enter your search queries here!</string>
+    <string name="search_settings">Search Settings</string>
+    <string name="e_g_tim_s_tacos">e.g. Tim\'s Tacos</string>
+    <string name="hazard_level">Hazard Level</string>
+    <string name="max_critical_violations">Max Critical Violations</string>
+    <string name="e_g_350">e.g. 350</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="favourites_only">Favourites Only</string>
+    <string name="apply">Apply</string>
+
+    <string name="update_alert_prompt">Do you want updated data?</string>
+    <string name="update_alert_accept">Update</string>
+    <string name="update_alert_decline">No</string>
+    <string name="update_alert_loading">"Updating Data &#8230;\n (click outside box to cancel update)"</string>
+
+</resources>
