@@ -1,5 +1,5 @@
 ## Android app: “Mindful”
-#*CMPT276 - Introduction to Software Engineering*
+*CMPT276 - Introduction to Software Engineering*
 *February - April 2020*
 - Collaborated with a team of four people to make an android application that show inspection reports of restaurants in Surrey, BC.
 - Designed a data model that can efficiently be mapped with front end parts.
