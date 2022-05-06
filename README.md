@@ -1,7 +1,5 @@
 # Android app: “Mindful”
-*CMPT276 - Introduction to Software Engineering*
-
-*February - April 2020*
+*Introduction to Software Engineering*
 - An android application that shows inspection reports of restaurants in Surrey, BC.
 - Data gathered from api request is stored in csv file and used to create data model backend using Java.
 - Data model efficiently maps with front end parts.
@@ -11,7 +9,7 @@
 - Teammates had different roles in every iteration.
 
 ## **Contributors:**
-- [Saqib Hasib](https://www.linkedin.com/in/saqibhasib/)
+- Saqib Hasib
 - Karson Nguyen
 - Julian 
 - Mahek Khan
